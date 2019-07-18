@@ -19,7 +19,7 @@ let nota2  = Number (prompt("digite nota2"));
 
 let media = (nota1 + nota2)/2;
 
-if(media > 0 && media <= 10)  {
+if(media > 0 &&|media <= 10)  {
     alert("O aluno(a) " + nomeAluno + " matriculada " + matricula + " obteve a media final " + media );
 } 
 else if( media === 0){
@@ -28,5 +28,7 @@ else if( media === 0){
 else {
     alert('A Media Não Pode Ser Maior Que 10');
 }
+
+
 
 
